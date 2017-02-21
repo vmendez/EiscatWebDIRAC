@@ -1,0 +1,44 @@
+EiscatWeb
+{
+  #If you want to use nginx, please uncomment the following two lines: 
+  #Balancer = None
+  #NumProcesses = 1
+  
+  Schema
+  {
+    Help = link|http://diracgrid.org/files/docs/UserGuide/WebAppUserGuide/index.html
+    Tools
+    {
+      Application Wizard = DIRAC.ApplicationWizard
+      Proxy Upload = DIRAC.ProxyUpload
+      Job Launchpad = DIRAC.JobLaunchpad
+      Notepad = DIRAC.Notepad
+    }
+
+    Applications
+    {
+      Public State Manager = DIRAC.PublicStateManager
+      Job Monitor = DIRAC.JobMonitor
+      Accounting = DIRAC.AccountingPlot
+      File Catalog = DIRAC.FileCatalog
+      Proxy Manager = DIRAC.ProxyManager
+    }
+
+    DIRAC = link|http://diracgrid.org
+  }
+    
+}
+
+      #Pilot Monitor = DIRAC.PilotMonitor
+      #Configuration Manager = DIRAC.ConfigurationManager
+      #Registry Manager = DIRAC.RegistryManager
+      #System Administration = DIRAC.SystemAdministration
+      #Activity Monitor = DIRAC.ActivityMonitor
+      #Transformation Monitor = DIRAC.TransformationMonitor
+      #Request Monitor = DIRAC.RequestMonitor
+      #Pilot Summary = DIRAC.PilotSummary
+      #Resource Summary = DIRAC.ResourceSummary
+      #Site Summary = DIRAC.SiteSummary
+      #Component History = DIRAC.ComponentHistory
+      #Job Summary = DIRAC.JobSummary
+      #ExampleApp = DIRAC.ExampleApp

@@ -1,0 +1,8 @@
+The extension stuff to be update both WebAppDIRAC and EiscatWeb if running in the same host
+
+Core/HandlerMgr.py
+Core/ConfMgr.py
+Core/App
+Lib/Compile.py
+
+Functional modification (only in EiscatWeb)
